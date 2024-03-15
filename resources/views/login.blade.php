@@ -4,10 +4,10 @@
     <form action="/login" method="POST" class="flex flex-col justify-center my-12">
        @csrf
         <div>
-            <x-input título="Email" type="text" nombre="email"/>
+            <x-input titulo="Email" type="text" nombre="email"/>
         </div>
         <div class="">
-            <x-input título="Password" type="password" nombre="password"/>
+            <x-input titulo="Password" type="password" nombre="password"/>
         </div>
 
         <button type="submit" class="bg-lime-200 text-white font-semibold px-5py-2 rounded-2x">Log In</button>

@@ -1,7 +1,9 @@
 @props(['titulo', 'type', 'nombre'])
-
-<label for="">{{ $titulo }}</label>
-<input type={{ $type }} name={{ $nombre}}> 
-@error( $nombre )
-<p>{{ $messsage }}</p>
-@enderror
+<div class="my-2">
+ <label class="pr-2">{{ $titulo }}</label>
+ <input type={{ $type }} name={{ $nombre}}
+ class="border border-black rounder-lg px-3 py">
+ @error( $nombre )
+ <p>{{ $messsage }}</p>
+ @enderror
+</div>
