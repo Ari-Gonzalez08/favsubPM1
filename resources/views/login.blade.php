@@ -1,6 +1,6 @@
 <x-layout>
 <div class="text-5x1 text-green-800 uppercase">
-  <h1 class="text-9xl text-fuchsia-300">Log In</h1>
+  <h1 class="text-9xl  text-purple-300">Log In</h1>
     <form action="/login" method="POST" class="flex flex-col justify-center my-12">
        @csrf
         <div>
